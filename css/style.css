@@ -793,7 +793,7 @@ a{
     margin-bottom: 20px;
   }
 }
-@media screen and (width <= 1000px) {
+@media screen and (width <= 600px) {
   .main{
     background-image: url("./../images/main-bg-mobile-img.png");
     background-size: 100% 100%;
@@ -930,4 +930,18 @@ a{
 .footer .column:last-child{
   padding-right: 0;
 }
+}
+@media screen and (width <= 475px) {
+        .clinc_type_sec .app_card {
+        width: 222px;
+    }
+    .clinc_type_sec .cards {
+        gap: 9p;
+    }
+    .badge, .cta-btn{
+        width:65%;
+    }
+        .clinc_type_sec .app_title, .mobile_clinics .app_title, .features-header .badge, .equipment-header .badge {
+        width: 62%;
+    }
 }
