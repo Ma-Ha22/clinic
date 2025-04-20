@@ -793,7 +793,7 @@ a{
     margin-bottom: 20px;
   }
 }
-@media screen and (width <= 850px) {
+@media screen and (width <= 1000px) {
   .main{
     background-image: url("./../images/main-bg-mobile-img.png");
     background-size: 100% 100%;
