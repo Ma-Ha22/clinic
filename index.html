@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="hero_sec">
+        <!-- nav bar in laptop mode -->
+        <div class="navbar app_container">
+            <div class="logo">
+                <img src="./images/logo.png" class="w-100" alt="SPAMA Logo">
+            </div>
+
+            <div class="nav-links">
+                <a href="#equipment">تجهيز العيادات المتنقلة</a>
+                <a href="#features">مميزات العيادات المتنقلة</a>
+                <a href="#clinicType">أنواع العيادات المتنقلة</a>
+
+            </div>
+            <button class="contact-btn">
+              <a href="#contact">
+              تواصل معنا الآن
+              </a>
+            </button>
+        </div>
+        <!-- end -->
+         <!-- navbar in mobile mode -->
+         <header class="header app_container">
+          <div class="logo">
+            <img src="./images/logo.png" alt="SPAMA Logo">
+          </div>
+          <div class="right-section">
+            <div class="hamburger"  onclick="toggleDropdown()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="dropdown" id="dropdown-menu">
+              <a href="#equipment">تجهيز العيادات المتنقلة</a>
+              <a href="#features">مميزات العيادات المتنقلة</a>
+              <a href="#clinicType">أنواع العيادات المتنقلة</a>
+            </div>
+            <button class="contact-btn">
+              <a href="#contact">
+              تواصل معنا الآن
+              </a>
+            </button>
+          
+          </div>
+        
+        </header>
+         <!-- end navbar in mobile mode -->
+         <!-- hero content -->
+         <div class="main">
+            <div class="hero-content">
+              <div class="badge d-flex align-items-center">
+                <span>●</span>
+                <span>
+                  حلول طبية متنقلة بمعايير عالمية
+
+                </span>
+
+              </div>
+              <h1>نجهز عيادتك... أينما كنت</h1>
+<p>
+  نصمم ونجهز عيادات طبية متنقلة جاهزة للعمل فورًا – بمواصفات معتمدة وخبرة موثوقة.
+</p>              <button class="cta-btn">
+  <a href="#contact">
+  
+  تواصل مع فريق الخبراء
+  </a>
+</button>
+            </div>
+
+        </div>
+        <!-- end -->
+    </section>
+
+    <!-- start about sec -->
+    <section class="about_sec text-center pb-5 pt-4">
+       <div class="about_img">
+          <img src="./images/about-logo.png" alt="">
+       </div>
+       <p class="mt-3">
+        شركة سباما الطبية هي شركة متخصصة في تصميم وتجهيز العيادات المتنقلة، مع تقديم حلول مرنة ومتكاملة تناسب مختلف أنواع المشاريع والمواقع. نحن لا نوفر فقط عيادات متنقلة، بل نوفر بيئة طبية متطورة تشمل التصميم الهندسي، الأجهزة، وأنظمة التشغيل، بما يتماشى مع متطلبات وزارة الصحة والجهات الرسمية.
+       </p>
+    </section>
+    <!-- end about sec -->
+     <!-- start clinc type sec -->
+     <section class="clinc_type_sec" id="clinicType">
+        <div class="app_title">
+            <span>●</span>
+            <span>تقديم الرعاية الطبية في أي موقع </span>
+
+        </div>
+        <h2>أنواع العيادات المتنقلة</h2>
+    
+        <div class="cards">
+          <!-- Card 1 -->
+          <div class="app_card">
+            <img src="./images/type1.png" alt="عيادات الإسعاف الأولي">
+            <h3>العيادات العامة</h3>
+            <p>تقديم خدمات طبية أساسية تشمل الفحوصات العامة والتطعيمات.</p>
+            <button class="btn">اطلب الآن ←</button>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="app_card">
+            <img src="./images/type2.png" alt="العيادات المتخصصة">
+            <h3>العيادات المتخصصة</h3>
+            <p>طب الأسنان، العيون، الجراحات، التبرع بالدم، المختبرات، الرعاية الأولية، الطوارئ، العيادات البيطرية.</p>
+            <button class="btn">اطلب الآن ←</button>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="app_card">
+            <img src="./images/type3.png" alt="العيادات العامة">
+            <h3>عيادات الإسعاف الأولي</h3>
+            <p>دعم موقعي للمشاريع والمنشآت الصناعية.</p>
+            <button class="btn">اطلب الآن ←</button>
+          </div>
+                    <!-- Card 4 -->
+
+          <div class="app_card">
+            <img src="./images/type4.png" alt="عيادات الإسعاف الأولي">
+            <h3>عيادات الطوارئ للكوارث</h3>
+<p>
+  تدخل فوري في الأزمات والكوارث.
+</p>            <button class="btn">اطلب الآن ←</button>
+          </div>
+    
+          <!-- Card 5 -->
+          <div class="app_card">
+            <img src="./images/type5.png" alt="العيادات المتخصصة">
+            <h3>عيادات الفعاليات</h3>
+<p>
+  تغطية طبية في الفعاليات الترفيهية والرياضية.
+</p>            <button class="btn">اطلب الآن ←</button>
+          </div>
+    
+          <!-- Card 6 -->
+          <div class="app_card">
+            <img src="./images/type6.png" alt="العيادات العامة">
+            <h3>عيادات المناطق البعيدة</h3>
+<p>دعم طبي للمجمعات السكنية والصناعية النائية.</p>            <button class="btn">اطلب الآن ←</button>
+          </div>
+        </div>
+    
+      </section>
+     <!-- end clinc type sec -->
+      <!-- start features sec -->
+      <section class="features-section" id="features">
+        <div class="features-header">
+          <div class="badge">
+            <span class="dot">●</span>
+            <span>
+              تصميم ذكي يلبي احتياجاتك الطبية والوظيفية
+
+            </span>
+            
+          </div>
+          <h2>مميزات العيادات المتنقلة</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature1.png" class="w-100" alt="">
+            </div>
+            <p>مرونة في تقسيم المساحات الداخلية</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature2.png" class="w-100" alt="">
+            </div>
+            <p>أنظمة تكييف وتهوية عالية الجودة</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature3.png" class="w-100" alt="">
+            </div>
+            <p>تصميم يسهل الدخول والخروج</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature4.png" class="w-100" alt="">
+            </div>
+            <p>إمكانية وصول مريحة لذوي الإعاقة</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature5.png" class="w-100" alt="">
+            </div>
+            <p>إمكانية إعادة ترتيب الهيكل الداخلي حسب الحاجة</p>
+          </div>
+          <div class="feature-item">
+            <div class="icon">
+              <img src="./images/feature6.png" class="w-100" alt="">
+            </div>
+            <p>تصميم عملي لاختلاف التخصصات الطبية</p>
+          </div>
+         
+         
+        </div>
+      </section>
+      <!-- end features sec -->
+      <!-- start Equipment sec -->
+      <section class="equipment-section" id="equipment">
+        <div class="equipment-header">
+          <div class="badge">
+            <span class="dot">●</span>
+            <span>
+              أجهزة ومستلزمات طبية من مصدر واحد
+            </span>
+            
+          </div>
+<h2>المعدات والمستهلكات الطبية</h2>     
+   </div>
+        <div class="equipment-grid">
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq1.png" alt="">
+            </div>
+<p>قياس العلامات الحيوية</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq2.png" alt="">
+            </div>
+<p>جهاز تخطيط قلب</p>          </div>
+
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq3.png" alt="">
+            </div>
+<p>جهاز شفط بلغم</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq4.png" alt="">
+            </div>
+<p>
+  كفوف طبية
+</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq5.png" alt="">
+            </div>
+<p>سرنجات</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq6.png" alt="">
+            </div>
+<p>شاش</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq7.png"  alt="">
+            </div>
+<p>كمامات</p>          </div>
+          <div class="equipment-item">
+            <div class="icon">
+              <img src="./images/eq8.png" alt="">
+            </div>
+<p>نقل مريض</p>          </div>
+         
+         
+        </div>
+        <button class="btn mt-5">
+          اطلب اجهزتنا الان
+          <span>←</span>
+
+        </button>
+      </section>
+      <!-- end Equipment sec -->
+       <!-- start  clinc type -->
+        <section class="mobile_clinics mt-5">
+          <div class="app_title">
+            <span>●</span>
+            <span>تقديم الرعاية الطبية في أي موقع </span>
+
+        </div>
+        <h2 class="text-center">أنواع العيادات المتنقلة</h2>
+          <div class="app_cards">
+            <!-- Card 1 -->
+            <div class="app_card">
+                <img src="./images/mobile_clinic1.png" alt="عيادة متنقلة">
+
+              <div class="card-footer">خيام عيادات متنقلة</div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="app_card">
+              <img src="./images/mobile_clinic2.png" alt="عيادة مسبقة الصنع">
+              <div class="card-footer">عيادات متنقلة للي في مسبقة الصنع (كونتينر)</div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="app_card">
+              <img src="./images/mobile_clinic3.png" alt="خيام">
+              <div class="card-footer">خيام عيادات متنقلة</div>
+            </div>
+          </div>
+        </section>
+       <!-- end  clinc type -->
+        <!-- start qes -->
+        <section class="faq-section mt-5">
+ <!-- Right: Title + CTA -->
+ <div class="faq-right">
+  <h2>الأسئلة الشائعة حول خدماتنا</h2>
+  <p>جمعنا لك أبرز الأسئلة التي قد تدور في بالك، وإجابات بسيطة وواضحة تساعدك على البدء بثقة.</p>
+  <button class="d-flex align-items-center justify-content-center">
+    <span>
+    تواصل معنا الآن 
+  </span>
+    <span>←</span>
+  </button>
+</div>
+          <!-- Left: Questions -->
+          <div class="faq-left">
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>ما هي أنواع العيادات المتنقلة التي تقدمها سباما الطبية؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                نوفر ثلاثة أشكال رئيسية للعيادات المتنقلة:  
+    الخيام الطبية  - وحدات بورتا كبين - المركبات المجهزة بعيادات
+              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>كيف يمكنني اختيار نوع العيادة الأنسب لاحتياجاتي؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                يعتمد الاختيار على:  
+                <br>
+   - طبيعة الخدمة (عامّة، متخصصة، طوارئ، فعاليات، تجمعات بعيدة)  
+   <br>
+   - مدة الاستخدام (مؤقت أم مستمر)  
+   <br>
+   - بيئة العمل وظروف النقل (مساحات ضيقة، طرق وعرة، إلخ)
+              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>هل تقدمون تصميمات قابلة لإعادة الترتيب والتعديل؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                عم. تُصمم مساحات العيادة المتنقلة بمرونة عالية، تتيح إعادة توزيع المناطق الداخلية بسهولة لتلبية الاحتياجات المتغيرة.              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>ما هي المعايير والمواصفات التي تلتزمون بها؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                جميع حلولنا متوافقة مع معايير وزارة الصحة، والهيئة العامة للغذاء والدواء، والبلديات، والدفاع المدني.              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>ما أنواع الخدمات الطبية التي يمكن توفيرها داخل العيادة المتنقلة؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                 خدمات عامة: <br>
+                 - فحوصات دورية وتطعيمات  <br>
+   - خدمات متخصصة: طب الأسنان، العيون، الجراحات، التبرع بالدم، المختبرات، الرعاية الأولية والطوارئ، والعيادات البيطرية  
+   - رعاية الطوارئ:في الكوارث والأزمات  
+   - تغطية الفعاليات: رياضية وترفيهية  
+   - خدمة المناطق النائية: صناعية وسكنية بعيدة عن المرافق الطبية
+              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>ما هي مدة تجهيز العيادة المتنقلة وتسليمها للعمل؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                تختلف المدة حسب نوع العيادة (خيمة، بورتا كبين، مركبة) ومتطلبات التخصيص، ولكننا نلتزم بالجداول الزمنية المتفق عليها مع العميل.              </div>
+            </div>
+      
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>هل تقدم سباما الطبية خدمة تأجير العيادات المتنقلة؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                نعم، نوفر خطط إيجار مرنة تناسب الاحتياجات قصيرة الأجل (فعاليات، أزمات) وطويلة الأجل (خدمات دائمة)، مع خيارات صيانة ودعم فني متكامل طوال فترة الإيجار.              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question">
+                <div><span>?</span>هل توفر سباما الطبية الطواقم الطبية لتشغيل العيادة؟</div>
+                <div class="arrow"><i class="fa-solid fa-chevron-down fs-5"></i></div>
+              </div>
+              <div class="faq-answer">
+                نعم، وبالتعاون مع شركائنا المتخصصين، يمكننا توفير الطواقم الطبية المؤهلة وفقًا لنوع العيادة والخدمات الطبية المطلوبة
+                          </div>
+            </div>
+      
+          </div>
+      
+         
+      
+        </section>
+        <!-- end qes -->
+         <!-- contact -->
+           <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="overlay">
+      <h2>لماذا معنا؟</h2>
+      <p>تجهيز شامل من مكان واحد وخيارات مرنة مطابقة للاشتراطات.</p>
+      <div class="form-container">
+        <input type="text" placeholder="الاسم">
+        <input type="email" placeholder="البريد الإلكتروني">
+        <textarea rows="4" placeholder="الرسالة"></textarea>
+        <button>تواصل معنا الآن</button>
+      </div>
+    </div>
+  </section>
+         <!-- footer -->
+         <footer class="footer">
+          <div class="app_container">
+            <div class="column logo">
+              <img src="./images/footer-logo.png" alt="SPAMA Logo">
+            </div>
+            <div class="column">
+              <p>
+                متخصصون في توفير الأدوات والمعدات الطبية وكذلك الأجهزة والمستلزمات الرياضية لمختلف القطاعات الحكومية والخاصة والجمعيات الخيرية، نسعى لتحسين جودة حياة الأفراد والمرضى وكبار السن وذوي الإعاقة، من خلال تغطية كافة مدن وقرى المملكة العربية السعودية
+              </p>
+            </div>
+            <div class="column">
+              <p>www.spama.sa</p>
+              <p>admin@spama.sa</p>
+              <p>8001280001</p>
+              <p>المملكة العربية السعودية</p>
+            </div>
+          </div>
+       
+       
+          
+        </footer>
+      
+        <!-- Bottom Bar -->
+        <div class="bottom-bar">
+          جميع الحقوق محفوظة لدى سباما ميديكال© | 2024        </div>
+      
+         <script src="./js/main.js"></script>
+</body>
+
+</html>
