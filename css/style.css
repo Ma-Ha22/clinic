@@ -945,3 +945,11 @@ a{
         width: 62%;
     }
 }
+@media screen and (width <= 459) {
+        .clinc_type_sec .app_cards {
+        gap: 6px;
+        }
+        .clinc_type_sec .app_card {
+        width: 210px;
+    }
+}
