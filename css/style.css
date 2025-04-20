@@ -945,7 +945,7 @@ a{
         width: 62%;
     }
 }
-@media screen and (width <= 459) {
+@media screen and (width <= 459px) {
         .clinc_type_sec .app_cards {
         gap: 6px;
         }
