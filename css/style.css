@@ -944,6 +944,9 @@ a{
         .clinc_type_sec .app_title, .mobile_clinics .app_title, .features-header .badge, .equipment-header .badge {
         width: 62%;
     }
+        .main {
+            height: 140vh;
+        }
 }
 @media screen and (width <= 459px) {
         .clinc_type_sec .app_cards {
