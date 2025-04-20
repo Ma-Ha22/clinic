@@ -945,7 +945,7 @@ a{
         width: 62%;
     }
         .main {
-            height: 140vh;
+            height: 140vh !important;
         }
 }
 @media screen and (width <= 459px) {
@@ -955,4 +955,7 @@ a{
         .clinc_type_sec .app_card {
         width: 210px;
     }
+     .main{
+            height: 140vh;
+        }
 }
