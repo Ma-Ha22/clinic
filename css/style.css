@@ -289,7 +289,7 @@ a{
     margin-bottom: 60px;
   }
 
-  .clinc_type_sec .cards {
+  .clinc_type_sec .app_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -823,7 +823,7 @@ a{
   .clinc_type_sec .app_title, .mobile_clinics .app_title, .features-header .badge, .equipment-header .badge{
     width: 52%;
   }
-  .clinc_type_sec .cards{
+  .clinc_type_sec .app_cards{
     gap: 15px;
     align-items: stretch;
   }
